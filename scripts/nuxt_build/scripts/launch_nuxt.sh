@@ -1,0 +1,1 @@
+docker run --rm -ti -v ${PWD}/frontend:/app -p 3000:3000 --name node_front_dev node-dev bash

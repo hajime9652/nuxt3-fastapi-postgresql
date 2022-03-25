@@ -1,0 +1,1 @@
+docker build -t node-dev -f ./frontend_app/Dockerfile.bev .

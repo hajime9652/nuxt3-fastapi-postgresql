@@ -1,0 +1,14 @@
+FROM node:14.16.1
+
+# WORKDIR /
+
+# RUN npm install -g --force yarn
+# RUN yarn install
+
+# RUN npx nuxi init app
+# WORKDIR /app
+# RUN yarn install
+
+EXPOSE 3000
+
+# CMD ["yarn", "dev", "-o"]
