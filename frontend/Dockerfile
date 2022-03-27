@@ -1,10 +1,9 @@
-FROM node:14.16.1
+FROM node:16-alpine
 
 WORKDIR /app
 
 COPY package.json /app
 
-RUN npm i -D nuxi
 RUN npm install -g --force yarn
 RUN yarn install
 
