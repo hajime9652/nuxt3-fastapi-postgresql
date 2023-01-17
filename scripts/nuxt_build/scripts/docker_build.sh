@@ -1,1 +1,1 @@
-docker build -t node-dev -f ./frontend_app/Dockerfile.bev .
+docker build -t node-dev -f scripts/nuxt_build/Dockerfile.bev .
