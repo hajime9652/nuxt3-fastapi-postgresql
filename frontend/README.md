@@ -1,37 +1,28 @@
-
-## First build and run nuxt3 container
-```
-bash scripts/docker_build.sh
-```
-
-```
-bash scripts/launch_nuxt.sh
-```
-
-```
-bash scripts/nuxt_build.sh
-```
-
-
-
 # Nuxt 3 Minimal Starter
 
-We recommend to look at the [documentation](https://v3.nuxtjs.org).
+Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
 ## Setup
 
-Make sure to install the dependencies
+Make sure to install the dependencies:
 
 ```bash
+# yarn
 yarn install
+
+# npm
+npm install
+
+# pnpm
+pnpm install
 ```
 
-## Development
+## Development Server
 
 Start the development server on http://localhost:3000
 
 ```bash
-yarn dev
+npm run dev
 ```
 
 ## Production
@@ -39,7 +30,13 @@ yarn dev
 Build the application for production:
 
 ```bash
-yarn build
+npm run build
 ```
 
-Checkout the [deployment documentation](https://v3.nuxtjs.org/docs/deployment).
+Locally preview production build:
+
+```bash
+npm run preview
+```
+
+Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
